@@ -6,8 +6,8 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
-
+gem 'hirb'
+gem "bootstrap-sass-rails", "~> 3.0.0.3"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -19,7 +19,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'rails-footnotes'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
