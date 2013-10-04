@@ -11,5 +11,12 @@
  *= require_self
  *= require_tree .
  */
-body { padding-top: 70px; }
-
+body { padding-top: 20px;
+	}
+#status_content{
+	height: 80px;
+}
+.new_user{
+	height: 600px;
+	line-height: 15px;
+}
