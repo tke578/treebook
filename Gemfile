@@ -8,6 +8,7 @@ gem 'devise'
 gem 'sqlite3'
 gem 'hirb'
 gem "bootstrap-sass-rails", "~> 3.0.0.3"
+gem 'simple_form'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
