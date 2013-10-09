@@ -1,6 +1,7 @@
 // Place all the styles related to the statuses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 @import "bootstrap";
 
 .status {
@@ -15,7 +16,7 @@
 }
 .status.hover .admin{
 	display: inline;
-}
+}s
 .status.hover {
 	background :#00FFFF;
 }

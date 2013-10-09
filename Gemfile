@@ -5,9 +5,9 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'devise'
-
+gem 'sqlite3'
 gem 'hirb'
-gem "bootstrap-sass-rails", "~> 3.0.0.3"
+gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'simple_form'
 
 group :development, :test do
