@@ -13,6 +13,9 @@ gem 'simple_form'
 group :development, :test do
 	gem 'sqlite3'
 end
+group :test do
+	gem 'shoulda'
+end
 
 group :production do 
 	gem 'pg'
