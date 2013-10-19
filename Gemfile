@@ -7,10 +7,24 @@ gem 'rails', '3.2.13'
 gem 'devise'
 gem 'sqlite3'
 gem 'hirb'
-gem "bootstrap-sass-rails", "~> 3.0.0.3"
+gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'simple_form'
 
+
 # Gems used only for assets and not required
+
+group :development, :test do
+	gem 'sqlite3'
+end
+group :test do
+	gem 'shoulda'
+end
+
+group :production do 
+	gem 'pg'
+end
+# Gems used orgnly for assets and not required
+
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -25,9 +39,11 @@ end
 gem 'rails-footnotes'
 gem 'jquery-rails'
 
+
 group :production do
   gem 'pg', '0.12.2'
 
+1
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
