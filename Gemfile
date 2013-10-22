@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'hirb'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'simple_form'
+gem 'state_machine'
 
 
 # Gems used only for assets and not required
@@ -18,11 +19,18 @@ group :development, :test do
 end
 group :test do
 	gem 'shoulda'
+	gem 'factory_girl_rails'
 end
 
-group :production do 
-	gem 'pg'
+group :development do
+  gem "better_errors"
 end
+
+gem "binding_of_caller"
+
+# group :production do 
+# 	gem 'pg'
+# end
 # Gems used orgnly for assets and not required
 
 # in production environments by default.
@@ -40,10 +48,10 @@ gem 'rails-footnotes'
 gem 'jquery-rails'
 
 
-group :production do
-  gem 'pg', '0.12.2'
+# group :production do
+#   gem 'pg', '0.12.2'
 
-1
+# 1
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -59,4 +67,4 @@ group :production do
 
 # To use debugger
 # gem 'debugger'
-end
+
