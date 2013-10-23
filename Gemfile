@@ -10,6 +10,8 @@ gem 'hirb'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'simple_form'
 gem 'state_machine'
+gem 'draper'
+gem 'js-routes'
 
 
 # Gems used only for assets and not required

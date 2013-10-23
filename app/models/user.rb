@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
               message: 'Must be formatted correctely.'
             }
 
-has_many :pending_user_friendships, class_name: 'UserFriendships',
+has_many :pending_user_friendships, class_name: 'UserFriendship',
                                       foreign_key: :user_id,
                                       conditions: { state: 'pending'}
 
