@@ -10,7 +10,7 @@ gem 'hirb'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'simple_form'
 gem 'state_machine'
-gem 'draper'
+gem 'draper','~> 1.0'
 gem 'js-routes'
 
 
