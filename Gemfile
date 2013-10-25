@@ -12,12 +12,16 @@ gem 'simple_form'
 gem 'state_machine'
 gem 'draper','~> 1.0'
 gem 'js-routes'
+gem 'paperclip'
 
-
+group :development do
+	gem 'thin'
+end
 # Gems used only for assets and not required
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'log_buddy'
 end
 group :test do
 	gem 'shoulda'
