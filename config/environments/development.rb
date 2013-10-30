@@ -9,7 +9,7 @@ Treebook::Application.configure do
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
 
-
+Paperclip.options[:command_path] = "C:/Program Files (x86)/ImageMagick-6.8.7-Q16"
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
