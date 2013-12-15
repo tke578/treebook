@@ -18,9 +18,7 @@ gem 'draper','~> 1.0'
 gem 'js-routes'
 gem 'paperclip'
 
-group :development do
-	gem 'thin'
-end
+
 # Gems used only for assets and not required
 
 group :development, :test do
