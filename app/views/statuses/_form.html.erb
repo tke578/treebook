@@ -11,7 +11,7 @@
     </div>
   <% end %>
   
-  <%= f.input :content, input_html: { rows: 4, class: 'input-xxlarge' } %>
+  <%= f.input :content, input_html: { rows: 4, class: 'input-xxlarge',id: 'something_else'} %>
   <%= f.fields_for :document do |document_fields| %>
     <% if document_fields.object.attachment? %>
     <div class="control-group">
@@ -30,3 +30,8 @@
     <%= link_to "Back", statuses_path, class: 'btn' %>
   </div>
 <% end %>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#something_else').datepicker();
+  });
+</script>

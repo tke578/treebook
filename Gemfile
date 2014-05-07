@@ -5,6 +5,7 @@ gem 'cocaine', '0.3.2'
 gem 'twitter-bootstrap-rails'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'bootstrap-datepicker-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -51,7 +52,7 @@ end
 
   gem 'uglifier', '>= 1.0.3'
 
-gem 'rails-footnotes', '>= 3.7.9',:group => :development
+gem 'rails-footnotes', '>= 3.7.9', :group => :development
 gem 'jquery-rails'
 gem 'turbolinks'
 

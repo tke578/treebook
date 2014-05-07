@@ -94,3 +94,6 @@ class UserFriendshipsController < ApplicationController
 	end
 end
 end
+
+
+

@@ -16,6 +16,8 @@
 //= require bootstrap
 //= require js-routes
 //= require turbolinks
+//= require bootstrap-datepicker
+
 window.loadedActivities = [];
 
 
