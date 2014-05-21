@@ -17,13 +17,15 @@
         <li id="activity-feed"><%= link_to "Activity Feed", activities_path %></li>
       <% end %>
     </ul>
-    <ul class="nav pull-right">
+    
       <% if user_signed_in? %>
+      <ul class="nav pull-center">
         <li><%= link_to 'Albums', albums_path(current_user) %></li>
         <li><%= link_to 'Friends', user_friendships_path %></li>
         <li><%= link_to current_user.full_name, edit_user_registration_path %></li>
         <li><%= link_to "Log Out", logout_path %> </li>
       <% else %>
+      <ul class="nav pull-right">
         <li><%= link_to "Register User", register_path %></li>
          <li><%= link_to "Login User", login_path %></li>
       <% end %>

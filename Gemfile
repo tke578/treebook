@@ -26,6 +26,10 @@ group :development, :test do
 	
 	gem 'log_buddy'
 end
+
+group :development do
+  gem 'meta_request'
+end
 group :test do
 	gem 'shoulda'
 	gem 'factory_girl_rails'
